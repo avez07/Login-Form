@@ -1,9 +1,13 @@
-.flex-container-1{
+.flex-cantainer-parnt{
     border: 2px solid black;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: aliceblue;
-    margin: 0 100px 0 100px ;
+    padding: 15px;
+    position: relative;
+    top: 600px;
+    left: 50%;
     flex-direction: column;
+    background-color: aliceblue;
+    height: 240px;
+    width: 200px;
+
 }
