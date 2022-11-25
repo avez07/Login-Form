@@ -1,0 +1,9 @@
+.flex-container-1{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin: 0 100px 0 100px ;
+    flex-direction: column;
+}
