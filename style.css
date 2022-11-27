@@ -1,58 +1,55 @@
-.flex-cantainer-parnt{
-    border: 2px solid black;
+.container{
+    border: 1px solid #000;
+    background-color: aliceblue;
+    width: 20%;
+    padding: 30px;
+}
+
+.section-container{
     display: flex;
     justify-content: center;
-    padding: 15px;
-    position: absolute;
-    top:  235px;
-    left: 566px;
-    right: 566px;
-    flex-direction: column;
-    background-color: aliceblue;
-    height: 385px;
-    width: 275px;
-    border-radius: 12px;
+    align-items: center;
+    height: 671px;
 }
+
 .name{
-    padding: 5px;
-    margin: 5px;
-    width: 250px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-.button{
-    border: none;
-    background-color: green;
+    margin-bottom: 20px;
     height: 25px;
-    width: 265px;
-    color: white;
-    margin: 5px;
-    cursor: pointer;
+    width: 100%;
 }
 .heading-1{
-    font-size: 25px;
-    margin: 5px;
+    font-size: 30px;
     text-transform: capitalize;
-}
-.heading-2{
-    margin-left:0 ;
-    margin-top: 8px;
-    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0;
+
 }
 .name-1{
-    padding: 5px;
-    margin: 5px;
-    width: 250px;
-    height: 90px;
-    border-radius: 5px;
-    border: 1px solid grey;    
+    height: 80px;
+    width: 100%;
+}
+.name-1::placeholder{
+    position: relative;
+    bottom: 30px;
+}
+.button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    width: 103%;
+    margin: 20px 0px;
+   border-radius: 7px;
+   border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
 }
 .last{
-    font-size: 10px;
     text-align: center;
+    font-size: 13px;
 }
-input.name-1::placeholder{
-    
-    position: relative;
-    bottom: 38px;
+input{
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left:  10px;
 }
